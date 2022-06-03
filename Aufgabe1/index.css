@@ -1,0 +1,37 @@
+.grid-container {
+    max-width: 100%;
+    padding: 0%;
+    margin: 100px,auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1px;
+
+}
+.flex-container {
+    max-width: 100%;
+    min-width:100%;
+    margin-left:45%;
+    margin-top:5%;
+
+    display: flex;
+    flex-basis:auto;
+    flex-shrink:unset;
+    flex-grow:unset;
+}
+.grid-item
+{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    border: 1px solid;
+    border-color: skyblue;  
+}
+
+.flex-item {
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    padding: 20px;
+}
